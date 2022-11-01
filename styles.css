@@ -1,0 +1,197 @@
+/* Define Global Default Css */
+*{
+  margin: 10;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins';
+  background-color: #f5f5dc;
+  background-image: url('https://kaylinprice.github.io/finalimages/color-burst.png');
+  background-repeat: no-repeat;
+  background-position: -5%;
+  height: auto;
+  max-width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 10vh;
+}
+/* Define Default Global Font Sizes */
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/*Define Global Helper Styles */
+
+.center {
+  text-align: center;
+}
+
+.margin-bottom_five {
+  margin-bottom: 5px;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.margin-top_zero {
+  margin-top: 0;
+}
+.hero-container_sub-copy {
+  font-weight: 400;
+}
+
+/* Define Navigation Styles */
+
+nav {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: flex-end;
+  padding-right: 20px;
+position: sticky;
+top: 0;
+font-family: 'Poppins', sans-serif;
+}
+.nav-link {
+  display: flex;
+  padding: 20px;
+}
+
+/* Define Hero Styles */
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  padding-left: 11%;
+}
+/* Define Card Styles */
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto auto 60px auto;
+  max-width: 1000px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  font-family: 'Poppins', sans-serif;
+  text-align:end
+}
+.card {
+  width: 40%;
+  margin: 20px; 
+}
+
+.card a {
+  text-decoration: none !important;
+  color:#363231 
+}
+
+/* Define Footer Styles */
+
+  footer {
+    background-image: url('https://kaylinprice.github.io/finalimages/footerimage.png');
+    text-align:left;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px;
+    color: #363231;
+}
+
+.copyright {
+ font-size: 10px;
+ margin-top: 30px;
+ color:#363231
+
+}
+.case-study-body{
+background-color: #f5f5dc;
+height: 100vh;
+
+}
+
+/* Define Portfolio */
+
+.portfolio-work{
+flex-flow: row wrap;
+justify-content: right;
+max-width: 1250px;
+}
+
+.cards{
+font-family: 'Poppins', sans-serif;
+text-align:left;
+}
+.cards{
+  width: 40%;
+  margin: 20px;  
+}
+.cards a {
+  text-decoration: none !important;
+  color:#363231 
+}
+.button {
+  background-color: #D7EC5E; /* Green */
+  border: none;
+  color: #363231;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttons {
+  background-color: #f5f5dc; 
+  color: #363231; 
+  border: 2px solid #D7EC5E;
+}
+.button {border-radius: 12px;}
